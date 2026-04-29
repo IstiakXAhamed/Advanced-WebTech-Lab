@@ -13,7 +13,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: "Sanim9944",
       database: 'product_inventory_db',
       autoLoadEntities: true,
-      synchronize : true
+      synchronize: true
       
     })
   ],

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* We define a dark mode background for our entire app globally */
+@layer base {
+  body {
+    @apply bg-slate-900 text-slate-50 font-semibold antialiased;
+  }
+}
